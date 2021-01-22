@@ -11,3 +11,5 @@ server.use((err, req, res, next) => {
         message: "Something went wrong"
     })
 })
+
+module.exports = server
