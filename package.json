@@ -4,7 +4,7 @@
   "description": "Node Server Testing Challenge",
   "scripts": {
     "test": "cross-env NODE_ENV=testing jest --no-watchman",
-    "server": "cross-env NODE_ENV=development nodemon index.js",
+    "server": "cross-env NODE_ENV=development nodemon server.js",
     "start": "node index.js"
   },
   "jest": {
